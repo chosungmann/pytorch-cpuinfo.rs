@@ -1,0 +1,4 @@
+[package]
+edition = "2021"
+name = "pytorch-cpuinfo-rs"
+version = "0.1.0"
