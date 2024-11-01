@@ -2,3 +2,8 @@
 edition = "2021"
 name = "pytorch-cpuinfo-rs"
 version = "0.1.0"
+
+[build-dependencies]
+bindgen = "0.70.1"
+cmake = "0.1.51"
+miette = { version = "7.2.0", features = ["fancy"] }
